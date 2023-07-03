@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+form {
+  max-width: 450px;
+  padding: 2rem;
+}
+
+.failure, .success{
+  background: rgb(175, 175, 175);
+  height: min-content;
+  padding: 2rem 0 0.1rem;
+}
+
+.failure-form {
+  padding: 0 0 0.7rem;
+}
+
+.lead {
+  margin-top: 1rem;
+}
